@@ -10,11 +10,11 @@ terraform {
 provider "google" {
   project = var.project_id
   region  = var.region
-  credentials = file("C:\\Users\\simon\\Downloads\\projet-simonwadin-e1b9759c35a5.json")
+  credentials = file("C:\\Users\\simon\\Downloads\\mon-projet-gcp-479512-7ba205f41a75.json")
 }
 
 resource "google_storage_bucket" "app_bucket" {
-  name     = "${var.app_name}-${var.environment}-bucket"
+  name     = "${var.app_name}-${var.environment}"
   location = var.region
   labels   = var.labels
 

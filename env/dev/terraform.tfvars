@@ -1,10 +1,10 @@
-project_id  = "mon-projet-gcp"
+project_id  = "mon-projet-gcp-479512"
 environment = "dev"
 app_name    = "myapp"
 region      = "us-central1"
 labels = {
-  App         = "myapp"
-  Environment = "dev"
-  Owner       = "team-infra"
-  CostCenter  = "CC1234"
+  app         = "myapp"
+  environment = "dev"
+  owner       = "team-infra"
+  costcenter  = "cc1234"
 }
