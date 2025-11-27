@@ -1,0 +1,62 @@
+[33mcommit bec3f52a3de481a678c9a87c9adcb0db0740272e[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m)[m
+Author: Simon33300 <simon.wadin@gmail.com>
+Date:   Thu Nov 27 12:57:00 2025 +0100
+
+    Ajout du gitignore pour Terraform et GCP
+
+ .gitignore | 8 [32m++++++++[m
+ 1 file changed, 8 insertions(+)
+
+[33mcommit 2e1469d6edcda57b8aeaa1ba0905e71c8cde41d0[m
+Author: Simon33300 <simon.wadin@gmail.com>
+Date:   Thu Nov 27 12:53:26 2025 +0100
+
+    commit : main.tf outputs.tf tfvars
+
+ env/dev/.terraform.lock.hcl                        |  22 [31m--[m
+ .../google/5.45.2/windows_amd64/LICENSE.txt        | 375 [31m---------------------[m
+ .../terraform-provider-google_v5.45.2_x5.exe       | Bin [31m105366016[m -> [32m0[m bytes
+ 3 files changed, 397 deletions(-)
+
+[33mcommit 8723296909cea273d5de074ab6069254d5896ab2[m
+Author: Simon33300 <simon.wadin@gmail.com>
+Date:   Thu Nov 27 11:59:04 2025 +0100
+
+    commit : main.tf outputs.tf tfvars
+
+ env/dev/.terraform.lock.hcl                        |  22 [32m++[m
+ .../google/5.45.2/windows_amd64/LICENSE.txt        | 375 [32m+++++++++++++++++++++[m
+ .../terraform-provider-google_v5.45.2_x5.exe       | Bin [31m0[m -> [32m105366016[m bytes
+ env/dev/main.tf                                    |   1 [32m+[m
+ 4 files changed, 398 insertions(+)
+
+[33mcommit f632a73449d34c2daeb58adfee5803f6d9ae779d[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: Simon33300 <simon.wadin@gmail.com>
+Date:   Thu Nov 27 11:44:41 2025 +0100
+
+    commit : main.tf outputs.tf tfvars
+
+ env/dev/outputs.tf | 14 [32m++++++++++++++[m
+ 1 file changed, 14 insertions(+)
+
+[33mcommit 9c7b4891c1980ff30da39402b1f30166713be335[m
+Author: Simon33300 <simon.wadin@gmail.com>
+Date:   Thu Nov 27 11:41:44 2025 +0100
+
+    Initial commit : main.tf outputs.tf tfvars
+
+ env/dev/main.tf          | 21 [32m+++++++++++++++++++++[m
+ env/dev/outputs.tf       |  0
+ env/dev/terraform.tfvars | 10 [32m++++++++++[m
+ env/dev/variables.tf     | 25 [32m+++++++++++++++++++++++++[m
+ 4 files changed, 56 insertions(+)
+
+[33mcommit 627ac76685fd738517702b4d3f35ad302172e441[m
+Author: Simon33300 <simon.wadin@gmail.com>
+Date:   Thu Nov 27 11:28:05 2025 +0100
+
+    Initial commit : structure Terraform + README
+
+ README.md       | 36 [32m++++++++++++++++++++++++++++++++++++[m
+ env/dev/main.tf |  0
+ 2 files changed, 36 insertions(+)
