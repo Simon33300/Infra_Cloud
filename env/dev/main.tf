@@ -10,6 +10,7 @@ terraform {
 provider "google" {
   project = var.project_id
   region  = var.region
+  creadentials = file("C:\Users\simon\Downloads\projet-simonwadin-e1b9759c35a5.json")
 }
 
 resource "google_storage_bucket" "app_bucket" {
